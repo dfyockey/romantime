@@ -4,6 +4,9 @@ Useful for creating a Roman digital clock.
 
 With gcc installed, use the following to compile...
     g++ -o RomanTime RomanTime.cpp
+    
+For unpadded output, comment out the padding lines
+"rpad = ..." and "lpad = ..." in the code before compiling.
 
 There really aren't any instructions for use. Run it, and it prints the current time
 in Roman numerals to standard output. What's done with the output is up to the user.
