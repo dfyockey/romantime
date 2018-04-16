@@ -1,3 +1,6 @@
 RomanTime - A simple utility for displaying the current time in Roman numerals.
 
 Useful for creating a Roman digital clock.
+
+There really aren't any instructions for use. Run it, and it prints the current time
+in Roman numerals to standard output. What's done with the output is up to the user.
