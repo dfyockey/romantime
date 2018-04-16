@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
 	
 	// Padding to keep hour/minute seperator (i.e. ":")
 	// stationary in left-justified display...
-	//lpad = string( 4-rHours.length(), ' ' );
+	lpad = string( 4-rHours.length(), ' ' );
 	
 	std::cout << lpad << rHours << ":" << rMinutes << rpad << std::endl;
 	
